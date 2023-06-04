@@ -1,0 +1,979 @@
+/* Ocular secciones */
+
+.p-view-pagemenu {
+    display: none;
+}
+
+.p-view-jobsearchbanner {
+    display: none;
+}
+
+.p-p-v-lg {
+    display: none;
+}
+
+.p-content-wrapper {
+    padding: 0 !important;
+    max-width: 100%;
+}
+
+/* Global */
+
+* {
+    font-family: Lato;
+}
+
+html {
+    background: white;
+}
+
+body {
+    margin: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+}
+
+/* Scroll */
+
+.p-scroll-button {
+    display: none;
+}
+
+.comunicado-academy-02 {
+    background-size: cover;
+    border-radius: 30px;
+    height: 195rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.7rem;
+    position: absolute;
+    top: 4.6rem;
+    left: 7.4rem;
+    right: 7.4rem;
+}
+
+.academy-logo {
+    width: 49.4rem;
+}
+
+.dark-blue-div {
+    background-color: rgba(9, 0, 44, 0.85);
+    border-radius: 50px;
+    backdrop-filter: blur(12.5px);
+    position: absolute;
+    left: 7.4rem;
+    right: 7.4rem;
+    top: 21.7rem;
+    z-index: 3;
+}
+
+.dark-blue-div-title {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+    color: #EAF9FA;
+    text-align: center;
+    padding-top: 7rem;
+    margin-bottom: 0;
+}
+
+.light-blue-title {
+    color: #2DCCCD;
+}
+
+.dark-blue-div-intro {
+    font-weight: 350;
+    font-size: 43px;
+    line-height: 55.9px;
+    color: #EAF9FA;
+    text-align: center;
+    padding: 4rem 0 0 0;
+    margin-bottom: 0;
+}
+
+.more-info-container {
+    margin-top: 5rem;
+    margin-bottom: 5.5rem;
+}
+
+.first-row {
+    margin-bottom: 4rem;
+}
+
+.col-info {
+    background-color: #EAF9FA;
+    border-radius: 30px;
+    height: 22.4rem;
+    width: 37.3rem;
+}
+
+.question {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 69px;
+    color: #2DCCCD;
+    text-align: center;
+    margin-top: 4.2rem;
+}
+
+.answer {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    color: #043263;
+    text-align: center;
+}
+
+.answer-1 {
+    margin-top: 1.4rem;
+}
+
+.answer-2 {
+    margin-top: 3.2rem;
+}
+
+.link-to-what-you-will-learn {
+    color: #2DCCCD;
+}
+
+.link-to-what-you-will-learn:hover {
+    color: #2DCCCD;
+}
+
+.dark-blue-div-text {
+    font-weight: 350;
+    font-size: 46px;
+    line-height: 70px;
+    color: #EAF9FA;
+    text-align: center;
+    padding-bottom: 6rem;
+    margin-bottom: 0;
+}
+
+.dark-blue-div-light-blue-text {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 70px;
+    color: #2DCCCD;
+    text-align: center;
+}
+
+.remember-sentence {
+    font-weight: 350;
+    font-size: 39px;
+    line-height: 50.7px;
+    color: #EAF9FA;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.course-code {
+    font-weight: 500;
+    font-size: 39px;
+    line-height: 50.7px;
+    color: #2DCCCD;
+    margin-bottom: 0;
+    padding-top: 3.3rem;
+    text-align: center;
+}
+
+.wishes-sentence {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 70px;
+    color: #EAF9FA;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 6.84rem;
+    padding-bottom: 6.84rem;
+}
+
+.light-blue-wishes-sentence {
+    color: #2DCCCD;
+}
+
+.doubts-sentence {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 39px;
+    line-height: 50.7px;
+    color: #EAF9FA;
+    text-align: center;
+    margin-bottom: 6.22rem;
+}
+
+.light-blue-doubts-sentence {
+    color: #2DCCCD;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 7.3rem;
+    margin-bottom: 8rem;
+    position: absolute;
+    top: 170.5rem;
+    left: 7.4rem;
+    right: 7.4rem;
+}
+
+.bbva-it-logo {
+    width: 22.5rem;
+}
+
+.blue-circle {
+    position: absolute;
+    right: 2rem;
+    top: 152.7rem;
+    z-index: 2;
+    width: 10.7rem;
+    height: 10.7rem;
+}
+
+.yellow-triangle {
+    position: absolute;
+    top: 25rem;
+    right: 0;
+    z-index: 3;
+    filter: blur(8px);
+    width: 14.2rem;
+}
+
+.blue-square {
+    position: absolute;
+    width: 17.2rem;
+    height: 17.2rem;
+    z-index: 3;
+    top: 164.2rem;
+    left: 9rem;
+}
+
+.mustard-triangle {
+    position: absolute;
+    width: 18.5rem;
+    top: 50.6rem;
+    left: 0;
+    transform: rotate(-0.22deg);
+}
+
+.first-layer-symbols {
+    mix-blend-mode: soft-light;
+    opacity: 0.5;
+}
+
+.first-layer-symbols-part-one {
+    position: absolute;
+    width: 33.1rem;
+    height: 57.6rem;
+    z-index: 3;
+    top: 1.5%;
+    left: 1%;
+}
+
+.first-layer-symbols-part-two {
+    position: absolute;
+    width: 3.13rem;
+    height: 9.32rem;
+    z-index: 3;
+    top: 12%;
+    right: 10%;
+}
+
+.first-layer-symbols-part-three {
+    position: absolute;
+    width: 4.5rem;
+    height: 9.94rem;
+    z-index: 3;
+    top: 56%;
+    left: 10%;
+}
+
+.second-layer-symbols {
+    position: absolute;
+    width: 87rem;
+    height: 35.7rem;
+    z-index: 3;
+    top: 13.47%;
+    left: 14.79%;
+    mix-blend-mode: soft-light;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1280px) {
+    .comunicado-academy-02 {
+        height: 143rem;
+    }
+
+    .header {
+        margin-bottom: 2.74rem;
+        top: 3.4rem;
+        left: 4.96rem;
+        right: 4.96rem;
+    }
+
+    .academy-logo {
+        width: 33.1rem;
+    }
+
+    .dark-blue-div {
+        left: 4.96rem;
+        right: 4.96rem;
+        top: 15.2em;
+    }
+
+    .dark-blue-div-title {
+        font-size: 53.6px;
+        line-height: 65.12px;
+        padding-top: 5.18rem;
+    }
+
+    .dark-blue-div-intro {
+        font-size: 28.81px;
+        line-height: 41.37px;
+        padding-top: 2.96rem;
+    }
+
+    .more-info-container {
+        margin-top: 3.7rem;
+        margin-bottom: 4.07rem;
+        padding-left: 8.1rem;
+        padding-right: 8.1rem;
+    }
+
+    .first-row {
+        margin-bottom: 2.96rem;
+    }
+
+    .col-info {
+        width: 25rem;
+        height: 16.58rem;
+    }
+
+    .question {
+        font-size: 36.85px;
+        line-height: 51.06px;
+        margin-top: 3.11rem;
+    }
+
+    .answer {
+        font-size: 26.8px;
+        line-height: 38.48px;
+    }
+
+    .answer-1 {
+        margin-top: 1.04rem;
+    }
+
+    .answer-2 {
+        margin-top: 2.37rem;
+    }
+
+    .dark-blue-div-text {
+        font-size: 30.82px;
+        line-height: 51.8px;
+        padding-bottom: 4.44rem;
+    }
+
+    .dark-blue-div-light-blue-text {
+        font-size: 30.82px;
+        line-height: 51.8px;
+    }
+
+    .remember-sentence {
+        font-size: 26.13px;
+        line-height: 37.52px;
+    }
+
+    .course-code {
+        font-size: 26.13px;
+        line-height: 37.52px;
+        padding-top: 2.44rem;
+    }
+
+    .wishes-sentence {
+        font-size: 53.6px;
+        line-height: 51.8px;
+        padding-top: 5.06rem;
+        padding-bottom: 5.06rem;
+    }
+
+    .doubts-sentence {
+        font-size: 26.13px;
+        line-height: 37.52px;
+        margin-bottom: 4.6rem;
+    }
+
+    .footer {
+        margin-top: 5.40rem;
+        margin-bottom: 5.92rem;
+        top: 125.1rem;
+        left: 4.96rem;
+        right: 4.96rem;
+    }
+
+    .bbva-it-logo {
+        width: 15.08rem;
+    }
+
+    .blue-circle {
+        right: 1.1rem;
+        top: 113em;
+        width: 7.17rem;
+        height: 7.17rem;
+    }
+
+    .yellow-triangle {
+        top: 18rem;
+        width: 9.51rem;
+    }
+
+    .blue-square {
+        width: 11.52rem;
+        height: 11.52rem;
+        top: 121.3rem;
+        left: 7rem;
+    }
+
+    .mustard-triangle {
+        width: 12.4rem;
+        top: 37rem;
+    }
+
+    .first-layer-symbols-part-one {
+        width: 22.18rem;
+        height: auto;
+    }
+
+    .first-layer-symbols-part-two {
+        width: 2.1rem;
+        height: auto;
+    }
+
+    .first-layer-symbols-part-three {
+        width: 3.02rem;
+        height: auto;
+    }
+
+    .second-layer-symbols {
+        width: 58.29rem;
+        height: auto;
+        top: 13.47%;
+        left: 14.79%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .comunicado-academy-02 {
+        height: 108rem;
+    }
+
+    .header {
+        margin-bottom: 2.06rem;
+        top: 2.55rem;
+        left: 3.97rem;
+        right: 3.97rem;
+    }
+
+    .academy-logo {
+        width: 26.48rem;
+    }
+
+    .dark-blue-div {
+        left: 3.97rem;
+        right: 3.97rem;
+        top: 11.8rem
+    }
+
+    .dark-blue-div-title {
+        font-size: 42.88px;
+        line-height: 48.84px;
+        padding-top: 3.89rem;
+    }
+
+    .dark-blue-div-intro {
+        font-size: 23.05px;
+        line-height: 31.03px;
+        padding-top: 2.22rem;
+    }
+
+    .more-info-container {
+        margin-top: 2.78rem;
+        margin-bottom: 3.05rem;
+        padding-left: 6.48rem;
+        padding-right: 6.48rem;
+    }
+
+    .first-row {
+        margin-bottom: 2.22rem;
+    }
+
+    .col-info {
+        width: 20rem;
+        height: 12.44rem;
+    }
+
+    .question {
+        font-size: 29.48px;
+        line-height: 38.3px;
+        margin-top: 2.33rem;
+    }
+
+    .answer {
+        font-size: 21.44px;
+        line-height: 28.86px;
+    }
+
+    .answer-1 {
+        margin-top: 0.78rem;
+    }
+
+    .answer-2 {
+        margin-top: 1.78rem;
+    }
+
+    .dark-blue-div-text {
+        font-size: 24.66px;
+        line-height: 38.85px;
+        padding-bottom: 3.33rem;
+    }
+
+    .dark-blue-div-light-blue-text {
+        font-size: 24.66px;
+        line-height: 38.85px;
+    }
+
+    .remember-sentence {
+        font-size: 20.9px;
+        line-height: 28.14px;
+    }
+
+    .course-code {
+        font-size: 20.9px;
+        line-height: 28.14px;
+        padding-top: 1.83rem;
+    }
+
+    .wishes-sentence {
+        font-size: 42.88px;
+        line-height: 38.85px;
+        padding-top: 3.8rem;
+        padding-bottom: 3.8rem;
+    }
+
+    .doubts-sentence {
+        font-size: 20.9px;
+        line-height: 28.14px;
+        margin-bottom: 3.45rem;
+    }
+
+    .footer {
+        margin-top: 4.05rem;
+        margin-bottom: 4.46rem;
+        top: 94.4rem;
+        left: 3.97rem;
+        right: 3.97rem;
+    }
+
+    .bbva-it-logo {
+        width: 12.06rem;
+    }
+
+    .blue-circle {
+        right: 1rem;
+        top: 84.7rem;
+        width: 5.74rem;
+        height: 5.74rem;
+    }
+
+    .yellow-triangle {
+        top: 14.5rem;
+        width: 7.61rem;
+    }
+
+    .blue-square {
+        width: 9.22rem;
+        height: 9.22rem;
+        top: 91.3rem;
+    }
+
+    .mustard-triangle {
+        width: 9.92rem;
+        top: 28.3rem;
+    }
+
+    .first-layer-symbols-part-one {
+        width: 17.74rem;
+    }
+
+    .first-layer-symbols-part-two {
+        width: 1.68rem;
+    }
+
+    .first-layer-symbols-part-three {
+        width: 2.42rem;
+    }
+
+    .second-layer-symbols {
+        width: 46.63rem;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .more-info-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .first-layer-symbols-part-two {
+        top: 13%;
+        right: 8%;
+    }
+
+    .second-layer-symbols {
+        left: 10.79%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .dark-blue-div-intro {
+        font-size: 22.05px;
+    }
+
+    .first-layer-symbols-part-one {
+        width: 17.39rem;
+    }
+
+    .first-layer-symbols-part-two {
+        width: 1.65rem;
+    }
+
+    .first-layer-symbols-part-three {
+        width: 2.37rem;
+        top: 59%;
+    }
+
+    .second-layer-symbols {
+        width: 45.63rem;
+        left: 4.79%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blue-circle {
+        top: 82.7rem;
+    }
+
+    .blue-square {
+        top: 88.3rem;
+    }
+
+    .mustard-triangle {
+        top: 30.3rem;
+    }
+
+    .first-layer-symbols-part-one {
+        left: 0%;
+    }
+
+    .first-layer-symbols-part-two {
+        right: 9%;
+    }
+
+    .more-info-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .col-info {
+        width: 18rem;
+    }
+
+    .first-row {
+        margin-bottom: 0.8rem;
+    }
+
+    .dark-blue-div-text {
+        padding-bottom: 2.53rem;
+    }
+
+    .wishes-sentence {
+        padding-top: 2.58rem;
+        padding-bottom: 2.58rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .comunicado-academy-02 {
+        height: 97rem;
+    }
+
+    .header {
+        margin-bottom: 1.44rem;
+        top: 1.79rem;
+        left: 2.78rem;
+        right: 2.78rem;
+    }
+
+    .academy-logo {
+        width: 18.54rem;
+    }
+
+    .dark-blue-div {
+        left: 2.78rem;
+        right: 2.78rem;
+        top: 8.26rem
+    }
+
+    .dark-blue-div-title {
+        font-size: 30.02px;
+        line-height: 34.19px;
+        padding-top: 2.72rem;
+    }
+
+    .dark-blue-div-intro {
+        font-size: 16.14px;
+        line-height: 21.72px;
+        padding-top: 1.55rem;
+    }
+
+    .more-info-container {
+        margin-top: 1.95rem;
+        margin-bottom: 2.14rem;
+        padding-left: 4.54rem;
+        padding-right: 4.54rem;
+    }
+
+    .first-row {
+        margin-bottom: 0;
+    }
+
+    .col-info {
+        width: 14rem;
+        height: 8.71rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .question {
+        font-size: 20.64px;
+        line-height: 26.81px;
+        margin-top: 1.63rem;
+    }
+
+    .answer {
+        font-size: 15px;
+        line-height: 20.20px;
+    }
+
+    .answer-1 {
+        margin-top: 0.55rem;
+    }
+
+    .answer-2 {
+        margin-top: 1.25rem;
+    }
+
+    .dark-blue-div-text {
+        font-size: 17.26px;
+        line-height: 27.2px;
+        padding-bottom: 2.33rem;
+    }
+
+    .dark-blue-div-light-blue-text {
+        font-size: 17.26px;
+        line-height: 27.2px;
+    }
+
+    .remember-sentence {
+        font-size: 14.63px;
+        line-height: 19.7px;
+    }
+
+    .course-code {
+        font-size: 14.63px;
+        line-height: 19.7px;
+        padding-top: 1.28rem;
+    }
+
+    .wishes-sentence {
+        font-size: 30.02px;
+        line-height: 27.2px;
+        padding-top: 2.66rem;
+        padding-bottom: 2.66rem;
+    }
+
+    .doubts-sentence {
+        font-size: 14.63px;
+        line-height: 19.7px;
+        margin-bottom: 2.42rem;
+    }
+
+    .footer {
+        margin-top: 2.84rem;
+        margin-bottom: 3.12rem;
+        top: 88rem;
+        left: 2.78rem;
+        right: 2.78rem;
+    }
+
+    .bbva-it-logo {
+        width: 8.44rem;
+    }
+
+    .blue-circle {
+        right: 0.5rem;
+        top: 78.7rem;
+        width: 4.02rem;
+        height: 4.02rem;
+    }
+
+    .yellow-triangle {
+        width: 5.33rem;
+        z-index: 2;
+    }
+
+    .blue-square {
+        width: 6.45rem;
+        height: 6.45rem;
+        left: 4.5rem;
+        top: 84.3rem;
+    }
+
+    .mustard-triangle {
+        width: 6.94rem;
+        top: 31.3rem;
+    }
+
+    .first-layer-symbols-part-one {
+        width: 12.42rem;
+        top: 0.5%;
+    }
+
+    .first-layer-symbols-part-two {
+        width: 1.18rem;
+    }
+
+    .first-layer-symbols-part-three {
+        width: 1.69rem;
+    }
+
+    .second-layer-symbols {
+        width: 32.64rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .comunicado-academy-02 {
+        height: 103rem;
+    }
+
+    .footer {
+        top: 94rem;
+    }
+
+    .dark-blue-div-intro {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .blue-circle {
+        top: 84.7rem;
+        right: 0.5rem;
+    }
+
+    .blue-square {
+        top: 90.3rem;
+    }
+
+    .first-layer-symbols-part-two {
+        right: 5%;
+    }
+
+    .first-layer-symbols-part-three {
+        top: 53%;
+        left: 12%;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .blue-square {
+        top: 91.3rem;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .dark-blue-div {
+        left: 1rem;
+        right: 1rem;
+    }
+
+    .blue-square {
+        top: 90.3rem;
+        left: 3.5rem;
+    }
+
+    .blue-circle {
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .first-layer-symbols-part-three {
+        top: 52%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .comunicado-academy-02 {
+        height: 117rem;
+    }
+
+    .academy-logo {
+        width: 15.48rem;
+    }
+
+    .more-info-container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .bbva-it-logo {
+        width: 7.03em;
+    }
+
+    .footer {
+        top: 108rem;
+    }
+
+    .blue-circle {
+        top: 95.7rem;
+    }
+
+    .yellow-triangle {
+        top: 12.5rem;
+    }
+
+    .blue-square {
+        top: 103.7rem;
+        left: 2.5rem;
+    }
+
+    .first-layer-symbols-part-two {
+        right: 6%;
+    }
+
+    .first-layer-symbols-part-three {
+        top: 54.5%;
+        left: 6%;
+    }
+}
